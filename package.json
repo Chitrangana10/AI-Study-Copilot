@@ -1,0 +1,11 @@
+{
+  "name": "ai-study-copilot",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:api": "npm --workspace apps/api run dev"
+  }
+}
